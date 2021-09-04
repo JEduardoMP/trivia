@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    
+    <title>Trivia</title>
+</head>
+<body>
+    
+    <div class="form-container" id="main-div">
+        <form action="" id="main-form">
+
+            <legend><h1>Funny trivia!</h1></legend>
+
+            <label for="">Insert your name:</label>
+            <input type="text" id="name" placeholder="Insert your name here">
+                
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Insert a number" required>
+
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+
+                <option value="0">Any category</option>
+                <!-- Inserted by JS -->
+                
+            </select>
+
+            <label for="question">Question type:</label>
+            <select name="" id="question">
+
+                <option value="0">Any type</option>
+                <option value="boolean">True/false</option>
+                <option value="multiple">Multiple Choice</option>
+
+            </select>
+
+            <label for="difficulty">Difficulty:</label>
+            <select name="" id="difficulty">
+
+                <option value="0">Any difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+
+            </select>
+
+            <input type="submit" value="Start" class="submit-button">
+
+        </form>
+    <script src="./JavaScript/main.js"></script>
+</body>
+</html>

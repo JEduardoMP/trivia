@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: Helvetica, 'Open Sans', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,109,121,1) 43%, rgba(0,212,255,1) 100%);
+    color: var(--white);
+}
+input, option {
+    border: 0;
+}
+/* ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+} */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif, 'Josefin sans';
+}
+p {
+    text-align: center;
+}
