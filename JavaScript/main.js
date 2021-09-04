@@ -57,7 +57,7 @@ const getQuestions = result => {
 
 const questionsSelected = () => {
 
-    let t = 15000
+    let t = 10000
     
     const divShow = questions.forEach((element, index, arr) => setTimeout(() => {
         
